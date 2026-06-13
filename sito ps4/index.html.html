@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS4 Countdown & News - Il Tramonto di una Leggenda</title>
+    <style>
+        /* Stili Generali e Colori a tema PlayStation */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a0e17;
+            color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #003087, #0072ce);
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1rem;
+            color: #b0d4ff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Box Situazione Generale */
+        .status-box {
+            background-color: #121824;
+            border-left: 5px solid #0072ce;
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 40px;
+        }
+
+        .status-box h2 {
+            margin-top: 0;
+            color: #0084ff;
+        }
+
+        /* Sezione Notizie / Aggiornamenti */
+        .news-section h2 {
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 10px;
+            color: #fff;
+        }
+
+        /* Struttura del singolo post giornaliero */
+        .news-card {
+            background-color: #161f30;
+            border: 1px solid #23324c;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+
+        .news-card:hover {
+            transform: translateY(-2px);
+            border-color: #0072ce;
+        }
+
+        .news-date {
+            font-size: 0.85rem;
+            color: #00a2ff;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .news-title {
+            margin: 0 0 10px 0;
+            font-size: 1.4rem;
+            color: #ffffff;
+        }
+
+        .news-content {
+            margin: 0;
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+            font-size: 0.9rem;
+            border-top: 1px solid #1e293b;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PS4 End of an Era</h1>
+        <p>Hub di aggiornamento quotidiano sulla fine del supporto a PlayStation 4</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="status-box">
+            <h2>Cosa sta succedendo in breve?</h2>
+            <p>Dopo oltre 12 anni di onorato servizio, Sony sta avviando il piano di "sunset" (tramonto) per la PS4. I server di gioco principali restano attivi e lo store permette ancora i download, ma da inizio 2026 i nuovi giochi inviati a Sony non possono più usare molte funzioni di rete storiche (come i feed attività o alcuni storage cloud legacy) e diversi servizi secondari stanno chiudendo.</p>
+        </section>
+
+        <section class="news-section">
+            <h2>Ultimi Aggiornamenti</h2>
+
+            <div class="news-card">
+                <div class="news-date">11 Giugno 2026</div>
+                <h3 class="news-title">Sony chiude il servizio browser "Trend Micro" su PS4</h3>
+                <p class="news-content">
+                    Sony ha ufficializzato la fine dei servizi di sicurezza web forniti da Trend Micro (Kids Safety e Web Security) per i browser di PS4 e PS3. Non sarà più acquistabile dal 25 agosto 2026 e smetterà definitivamente di funzionare ad agosto 2027. Un altro piccolo pezzo di sistema che se ne va.
+                </p>
+            </div>
+            <div class="news-card">
+                <div class="news-date">Primavera 2026</div>
+                <h3 class="news-title">Scatta il blocco delle API Legacy per i nuovi sviluppatori</h3>
+                <p class="news-content">
+                    Come pianificato, è entrata in vigore la policy di Sony per cui i nuovi giochi registrati su PS4 non possono più integrare feature come l'Activity Feed Web API e i Word Filters vecchi. La console sta diventando ufficialmente una piattaforma "retro" mantenuta solo per i giochi già esistenti.
+                </p>
+            </div>
+
+            <div class="news-card">
+                <div class="news-date">Gennaio 2026</div>
+                <h3 class="news-title">Confermato il piano di transizione verso PS6</h3>
+                <p class="news-content">
+                    Diversi report dell'industria videoludica confermano che l'interruzione progressiva delle feature PS4 serve a Sony per unificare i server e concentrare le risorse sul parco macchine attuale (PS5) e sul futuro hardware di prossima generazione.
+                </p>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Sito di Informazione Indipendente PS4. Aggiornato regolarmente.</p>
+    </footer>
+
+</body>
+</html>
